@@ -1,0 +1,25 @@
+GIT
+  remote: https://github.com/stepandra/st_codebreaker.git
+  revision: d9559b4e1dae0d6c94941523373368b7d414fde7
+  branch: dev
+  specs:
+    st_codebreaker (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    liquid (4.0.0)
+    puma (3.9.1)
+    rack (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  liquid
+  puma
+  rack
+  st_codebreaker!
+
+BUNDLED WITH
+   1.15.1
