@@ -1,0 +1,74 @@
+GIT
+  remote: https://github.com/stepandra/st_codebreaker
+  revision: d9559b4e1dae0d6c94941523373368b7d414fde7
+  branch: dev
+  specs:
+    st_codebreaker (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.3.0)
+    byebug (9.0.6)
+    coderay (1.1.1)
+    diff-lcs (1.3)
+    haml (5.0.1)
+      temple (>= 0.8.0)
+      tilt
+    method_source (0.8.2)
+    parallel (1.11.2)
+    parser (2.4.0.0)
+      ast (~> 2.2)
+    powerpack (0.1.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    puma (3.9.1)
+    rack (2.0.3)
+    rainbow (2.2.2)
+      rake
+    rake (12.0.0)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    rubocop (0.49.1)
+      parallel (~> 1.10)
+      parser (>= 2.3.3.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    slop (3.6.0)
+    temple (0.8.0)
+    tilt (2.0.7)
+    unicode-display_width (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  pry-byebug
+  puma
+  rack
+  rspec
+  rubocop
+  st_codebreaker!
+
+BUNDLED WITH
+   1.15.1
