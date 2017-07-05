@@ -1,0 +1,6 @@
+"/" : "main#index"
+"/create_new_game" : "game#index"
+"/game" : "game#game"
+"/compare" : "game#compare"
+"/hint" : "game#hint"
+"/stats" : "game#stats"
