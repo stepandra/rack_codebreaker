@@ -1,4 +1,4 @@
-class Game
+class GameStore
   DB_PATH = 'db.yml'
 
   attr_accessor :data
